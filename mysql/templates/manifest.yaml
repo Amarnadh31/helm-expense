@@ -71,4 +71,4 @@ spec:
       storageClassName: "ebs-sc"
       resources:
         requests:
-          storage: 5Gi
+          storage: {{ .values.VolumeClaim.resources.storage }}
