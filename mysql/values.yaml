@@ -1,5 +1,5 @@
 statefulset:
   replicas: 2
-  VolumeClaimtemplates:
+  volumeclaimtemplates:
     resources:
       storage: 5Gi
