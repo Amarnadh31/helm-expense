@@ -71,4 +71,4 @@ spec:
       storageClassName: "ebs-sc"
       resources:
         requests:
-          storage: {{ .values.VolumeClaim.resources.storage }}
+          storage: {{ .Values.VolumeClaim.resources.storage }}
