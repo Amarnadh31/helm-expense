@@ -1,5 +1,4 @@
 deployment:
   containers:
     imageversion: v1
-  deployment:
-    replicas: 2
+  replicas: 2
