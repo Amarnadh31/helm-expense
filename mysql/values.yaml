@@ -2,4 +2,4 @@ statefulset:
   replicas: 2
 volumeclaim:
   resources:
-    requests: 5Gi
+    storage: 5Gi
