@@ -59,7 +59,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: amarnadh31/mysql:v1
+        image: amarnadh31/mysql:{{ .Values.statefulset.containers.imageversion }}
         volumeMounts:
         - name: mysql-pvc
           mountPath: /var/lib/mysql

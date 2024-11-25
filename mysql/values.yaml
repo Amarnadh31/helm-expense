@@ -3,3 +3,5 @@ statefulset:
   volumeclaimtemplates:
     resources:
       storage: 5Gi
+  containers:
+    imageversion: v1
